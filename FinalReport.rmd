@@ -45,7 +45,7 @@ barchartGC(~infected + treatment,data=women, type="percent")
 
 ```
 
-Many women who contracted AIDS had received treatment, which means the vaccine was not effective. 
+Many women who contracted AIDS had received vaccine, which means the vaccine was not effective in preventing AIDS. it is effective for contracting AIDS.
 
 ### Numerical Descriptive Results
 
@@ -69,8 +69,10 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-p value 6.596e-05 which is less than .05 which means I should reject the null hypothesis. 
+The p-value of 7.686e-05 is smaller than 0.05, so we reject the null hypothesis. This means the treatment has a significant effect. The odds ratio of 1.54 means that women who took the treatment are 1.54X more likely to get AIDS than those who didn't.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+in WUP_05 I looked at many tests to see if women and the vaccine to prevent AIDS have a relationship. The question was "is this drug effective for preventing AIDS from women?" After looking at the results and the p value I found out that the vaccine(drug) has a significant effect on women. The Fisher's test shows the odds ratio is 1.54 which means that women, who took the vaccine, are 1.54X more likely to get AIDS than those who didn't. the p value is 7.686e-05 which means we reject the null hypothesis. 
